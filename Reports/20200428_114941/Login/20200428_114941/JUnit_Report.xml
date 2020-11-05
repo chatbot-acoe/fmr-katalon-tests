@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Login" time="16" tests="1" failures="0" errors="0">
+    <testsuite name="Login" tests="1" failures="0" errors="0" time="16" timestamp="2020-04-28 11:49:46" hostname="M1044297 - A2ML27073.mindtree.com" id="Test Suites/Login">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\M1044297\\Katalon Studio\\FindMyRoom\\Reports\\20200428_114941\\Login\\20200428_114941"/>
+            <property name="logFiles" value="C:\\Users\\M1044297\\Katalon Studio\\FindMyRoom\\Reports\\20200428_114941\\Login\\20200428_114941\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="M1044297 - A2ML27073.mindtree.com"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 81.0.4044.122"/>
+            <property name="hostAddress" value="192.168.0.104"/>
+            <property name="sessionId" value="4015c6e3bde3d7cc39e5463cf7d2685a"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/LoginLogout" classname="Test Cases/LoginLogout" status="PASSED">
+            <system-out>2020-04-28 11:49:47 - [TEST_CASE][PASSED] - Test Cases/LoginLogout: Test Cases/LoginLogout&#xD;
+&#xD;
+2020-04-28 11:49:47 - [TEST_STEP][PASSED] - openBrowser("http://mindtree-acoe-poc.southindia.cloudapp.azure.com:9090/fmr/#/"): Browser is opened with url: 'http://mindtree-acoe-poc.southindia.cloudapp.azure.com:9090/fmr/#/'&#xD;
+&#xD;
+2020-04-28 11:49:48 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2020-04-28 11:49:48 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2020-04-28 11:49:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mindtree-acoe-poc.southindia.cloudapp.azure.com:9090/fmr/#/'&#xD;
+&#xD;
+2020-04-28 11:49:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2020-04-28 11:49:59 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2020-04-28 11:49:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_FindMyRoom/a_Login")): Object: 'Object Repository/Page_FindMyRoom/a_Login' is clicked on&#xD;
+&#xD;
+2020-04-28 11:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FindMyRoom/a_Login' is clicked on&#xD;
+&#xD;
+2020-04-28 11:49:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FindMyRoom/label_E-mail")): Object: 'Object Repository/Page_FindMyRoom/label_E-mail' is clicked on&#xD;
+&#xD;
+2020-04-28 11:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FindMyRoom/label_E-mail' is clicked on&#xD;
+&#xD;
+2020-04-28 11:50:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_FindMyRoom/input_Login_loginformEmail"), "admin@admin.com"): Text 'admin@admin.com' is set on object 'Object Repository/Page_FindMyRoom/input_Login_loginformEmail'&#xD;
+&#xD;
+2020-04-28 11:50:01 - [MESSAGE][PASSED] - Text 'admin@admin.com' is set on object 'Object Repository/Page_FindMyRoom/input_Login_loginformEmail'&#xD;
+&#xD;
+2020-04-28 11:50:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_FindMyRoom/input_E-mail_loginformPassword"), "8ONjX3ggx5RmoBbvnoZOyw=="): Text ****** has been set on object 'Object Repository/Page_FindMyRoom/input_E-mail_loginformPassword'&#xD;
+&#xD;
+2020-04-28 11:50:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_FindMyRoom/input_E-mail_loginformPassword'&#xD;
+&#xD;
+2020-04-28 11:50:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FindMyRoom/button_Sign in")): Object: 'Object Repository/Page_FindMyRoom/button_Sign in' is clicked on&#xD;
+&#xD;
+2020-04-28 11:50:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FindMyRoom/button_Sign in' is clicked on&#xD;
+&#xD;
+2020-04-28 11:50:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FindMyRoom/a_Hi admin")): Object: 'Object Repository/Page_FindMyRoom/a_Hi admin' is clicked on&#xD;
+&#xD;
+2020-04-28 11:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FindMyRoom/a_Hi admin' is clicked on&#xD;
+&#xD;
+2020-04-28 11:50:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_FindMyRoom/a_Logout")): Object: 'Object Repository/Page_FindMyRoom/a_Logout' is clicked on&#xD;
+&#xD;
+2020-04-28 11:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FindMyRoom/a_Logout' is clicked on&#xD;
+&#xD;
+2020-04-28 11:50:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2020-04-28 11:50:03 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2020-04-28 11:49:46 - [TEST_SUITE][INCOMPLETE] - Login: null</system-out>
+        <system-err>2020-04-28 11:49:46 - [TEST_SUITE][INCOMPLETE] - Login: null</system-err>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 81.0.4044.122,,,2020-04-28 11:49:46,2020-04-28 11:50:03,16.863s,INCOMPLETE
+,,,,,,,
+Test Cases/LoginLogout,Chrome 81.0.4044.122,,,2020-04-28 11:49:47,2020-04-28 11:50:03,16.373s,PASSED
+"openBrowser(""http://mindtree-acoe-poc.southindia.cloudapp.azure.com:9090/fmr/#/"")",Chrome 81.0.4044.122,,,2020-04-28 11:49:47,2020-04-28 11:49:57,9.112s,PASSED
+maximizeWindow(),Chrome 81.0.4044.122,,,2020-04-28 11:49:57,2020-04-28 11:49:59,2.514s,PASSED
+"click(findTestObject(""Page_FindMyRoom/a_Login""))",Chrome 81.0.4044.122,,,2020-04-28 11:49:59,2020-04-28 11:49:59,0.289s,PASSED
+"click(findTestObject(""Object Repository/Page_FindMyRoom/label_E-mail""))",Chrome 81.0.4044.122,,,2020-04-28 11:49:59,2020-04-28 11:50:00,0.749s,PASSED
+"setText(findTestObject(""Object Repository/Page_FindMyRoom/input_Login_loginformEmail""), ""admin@admin.com"")",Chrome 81.0.4044.122,,,2020-04-28 11:50:00,2020-04-28 11:50:01,0.455s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_FindMyRoom/input_E-mail_loginformPassword""), ""8ONjX3ggx5RmoBbvnoZOyw=="")",Chrome 81.0.4044.122,,,2020-04-28 11:50:01,2020-04-28 11:50:01,0.672s,PASSED
+"click(findTestObject(""Object Repository/Page_FindMyRoom/button_Sign in""))",Chrome 81.0.4044.122,,,2020-04-28 11:50:01,2020-04-28 11:50:01,0.206s,PASSED
+"click(findTestObject(""Object Repository/Page_FindMyRoom/a_Hi admin""))",Chrome 81.0.4044.122,,,2020-04-28 11:50:01,2020-04-28 11:50:02,0.291s,PASSED
+"click(findTestObject(""Object Repository/Page_FindMyRoom/a_Logout""))",Chrome 81.0.4044.122,,,2020-04-28 11:50:02,2020-04-28 11:50:02,0.597s,PASSED
+closeBrowser(),Chrome 81.0.4044.122,,,2020-04-28 11:50:02,2020-04-28 11:50:03,0.825s,PASSED
