@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://mindtree-acoe-poc.southindia.cloudapp.azure.com:9090/fmr/#/')
+WebUI.openBrowser('http://poc-docker.eastus.cloudapp.azure.com:8076/#/')
 
 WebUI.maximizeWindow()
 
@@ -22,7 +22,7 @@ WebUI.click(findTestObject('Page_FindMyRoom/a_Login'))
 
 WebUI.click(findTestObject('Object Repository/Page_FindMyRoom/label_E-mail'))
 
-WebUI.setText(findTestObject('Object Repository/Page_FindMyRoom/input_Login_loginformEmail'), 'admin@admin.com')
+WebUI.setText(findTestObject('Object Repository/Page_FindMyRoom/input_Login_loginformEmail'), 'admin@fmr.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_FindMyRoom/input_E-mail_loginformPassword'), '8ONjX3ggx5RmoBbvnoZOyw==')
 
